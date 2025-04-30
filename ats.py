@@ -9,8 +9,9 @@ import re
 from sklearn.feature_extraction.text import CountVectorizer
 
 load_dotenv()
-g_api_key = st.secrets["GOOGLE_API_KEY"]
-genai.configure(api_key=g_api_key)
+#g_api_key = st.secrets["GOOGLE_API_KEY"]
+
+genai.configure(api_key="AIzaSyAcpoDyV8qj_ndI8W-LUZSGqVKzfGAIDno")
 
 # Define the prompt template
 prompt_template = """
